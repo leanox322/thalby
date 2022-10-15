@@ -1,0 +1,632 @@
+html {
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ol,
+ul {
+  margin: 0;
+  padding: 0;
+  font-weight: normal;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+body {
+  font-family: Roboto;
+}
+
+.container {
+  width: 1320px;
+  margin: 0 auto;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px 0;
+  position: relative;
+}
+
+.navbar-items {
+  display: flex;
+  gap: 28px;
+}
+
+.page-title {
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  top: 50%;
+}
+
+.navbar-items a {
+  color: black;
+  text-decoration: none;
+  font-family: Roboto;
+  font-weight: 700;
+  font-size: 16px;
+}
+
+.navbar-images {
+  display: flex;
+  gap: 26px;
+  align-items: center;
+}
+
+.color {
+  background-color: #f0efeb;
+}
+
+.header-img-wrapper {
+  display: flex;
+  align-items: center;
+}
+
+.header-content {
+  padding-top: 90px;
+  padding-right: 59px;
+  display: block;
+  font-family: Roboto;
+}
+
+.header-items {
+  display: flex;
+}
+
+.subtitle {
+  font-weight: 700;
+  font-size: 60px;
+  padding-right: 59px;
+  width: 643px;
+}
+
+.subtitle-description {
+  font-weight: 400;
+  font-size: 24px;
+  padding-top: 42px;
+  width: 481px;
+}
+
+.header-img {
+  width: 800px;
+  height: 521px;
+}
+
+.buy-wrapper {
+  padding-top: 26px;
+}
+
+.buy-link {
+  text-decoration: none;
+  color: white;
+  font-weight: 400;
+  font-size: 17px;
+}
+
+.button {
+  background-color: black;
+  width: 129px;
+  height: 36px;
+  border-radius: 100px;
+}
+
+.main-text-wrapper {
+  text-align: center;
+}
+
+.main-subtitle {
+  padding-top: 60px;
+  padding-bottom: 27px;
+  font-weight: 700;
+  font-size: 36px;
+}
+
+.main-subtitle-description {
+  font-weight: 400;
+  font-size: 20px;
+  width: 632px;
+  margin: 0 auto;
+}
+
+.main-add-info {
+  padding-top: 47px;
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.main-subtitle2 {
+  padding-top: 88px;
+  padding-bottom: 52px;
+  font-size: 36px;
+  font-weight: 700;
+}
+
+.main-images-wrapper {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  padding-bottom: 248px;
+}
+
+.main-image-description1 {
+  text-align: center;
+}
+
+.price {
+  padding-top: 17px;
+  padding-bottom: 10px;
+}
+
+.add-to-cart {
+  color: black;
+  font-weight: 700;
+  font-size: 17px;
+}
+
+.description1 {
+  font-size: 17px;
+  font-weight: 700;
+  width: 156px;
+  margin: 0 auto;
+  padding-top: 27px;
+}
+
+.description2 {
+  padding-top: 20px;
+  font-size: 17px;
+  font-weight: 700;
+  width: 156px;
+  margin: 0 auto;
+}
+
+.description3 {
+  padding-top: 19px;
+  font-size: 17px;
+  font-weight: 700;
+  width: 156px;
+  margin: 0 auto;
+}
+
+.color2 {
+  background-color: rgba(204, 204, 204, 0.3);
+}
+
+.people-and-society-wrapper {
+  display: flex;
+  justify-content: flex-start;
+  padding-top: 76px;
+  padding-bottom: 51px;
+  align-items: center;
+}
+
+.people-and-society-text {
+  display: block;
+  padding-left: 50px;
+}
+
+.img-subtitle1 {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 42px;
+}
+
+.img-description1 {
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 42px;
+  width: 498px;
+  padding-top: 31px;
+  padding-bottom: 40px;
+}
+
+.img-navlink1 {
+  color: black;
+}
+
+.color3 {
+  background-color: rgba(204, 204, 204, 0.6);
+}
+
+.culture-and-heritage-wrapper {
+  display: flex;
+  align-items: center;
+  padding-top: 76px;
+  padding-bottom: 51px;
+  justify-content: flex-end;
+}
+
+.culture-and-herritage-text {
+  display: block;
+  text-align: right;
+  padding-right: 50px;
+}
+
+.img-subtitle2 {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 42px;
+}
+
+.img-description2 {
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 42px;
+  padding-top: 31px;
+  padding-bottom: 31px;
+  width: 513px;
+}
+
+.color4 {
+  background-color: rgba(204, 204, 204, 0.3);
+}
+
+.power-and-politics-wrapper {
+  padding-top: 76px;
+  padding-bottom: 51px;
+  display: flex;
+  align-items: center;
+}
+
+.power-and-politics-text {
+  padding-left: 50px;
+  display: block;
+}
+
+.img-subtitle3 {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 42px;
+}
+
+.img-description3 {
+  padding-top: 31px;
+  padding-bottom: 39px;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 42px;
+  width: 530px;
+}
+
+.thalby-guide-features-wrapper {
+  padding-top: 190px;
+  text-align: center;
+}
+
+.thalby-guide-features-subtitle {
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 42px;
+  width: 450px;
+  margin: 0 auto;
+}
+
+.thalby-guide-features-images {
+  padding-bottom: 163px;
+  padding-top: 69px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.written-by-locals {
+  padding-bottom: 111px;
+  padding-top: 25px;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 35px;
+  width: 145px;
+  margin: 0 auto;
+}
+
+.packed-with-insight {
+  padding-bottom: 111px;
+  padding-top: 25px;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 35px;
+  width: 145px;
+  margin: 0 auto;
+}
+
+.interviews-with-diverse-voices {
+  padding-bottom: 111px;
+  padding-top: 25px;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 35px;
+  width: 145px;
+  margin: 0 auto;
+}
+
+.key-facts-and-etiquette-tips {
+  font-weight: 700;
+  padding-top: 25px;
+  font-size: 30px;
+  line-height: 35px;
+  width: 189px;
+  margin: 0 auto;
+}
+
+.packed-with-insight {
+  font-weight: 700;
+  padding-top: 25px;
+  font-size: 30px;
+  line-height: 35px;
+  width: 170px;
+  margin: 0 auto;
+}
+
+.a-concise-1-hour-read {
+  font-weight: 700;
+  padding-top: 25px;
+  font-size: 30px;
+  line-height: 35px;
+  width: 159px;
+  margin: 0 auto;
+}
+
+.interviews-with-diverse-voices {
+  font-weight: 700;
+  padding-top: 25px;
+  font-size: 30px;
+  line-height: 35px;
+  width: 211px;
+  margin: 0 auto;
+}
+
+.instant-digital-acces {
+  font-weight: 700;
+  padding-top: 25px;
+  font-size: 30px;
+  line-height: 35px;
+  width: 180px;
+  margin: 0 auto;
+}
+
+.interviewers-subtitle {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 42px;
+  width: 705px;
+  margin: 0 auto;
+  text-align: center;
+  padding-bottom: 102px;
+}
+
+.interviewers-img-description {
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 26px;
+  width: 285px;
+  margin: 0 auto;
+  padding-top: 35px;
+}
+
+.interviewers-description {
+  padding-bottom: 44px;
+  padding-top: 34px;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 23px;
+  width: 250px;
+  min-height: 150px;
+  margin: 0 auto;
+}
+
+.discover-link {
+  color: black;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 21px;
+  margin: 0 auto;
+}
+
+.interviewers-wrapper {
+  position: relative;
+}
+
+.interviewers-wrapper::after {
+  padding-bottom: 52px;
+  content: "";
+  position: absolute;
+  height: 520px;
+  width: 100%;
+  top: 30%;
+  left: 0%;
+  background-color: #f0f0f0;
+}
+
+.oberejno-dity {
+  z-index: 10;
+  position: relative;
+}
+
+.flex-dity {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+}
+
+.i-luv-dity {
+  overflow: hidden;
+  padding-bottom: 52px;
+}
+
+.form-wrapper {
+  padding-top: 79px;
+  text-align: center;
+}
+
+.form-text {
+  padding-bottom: 26px;
+}
+
+.keep-in-touch {
+  padding-bottom: 9px;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 42px;
+}
+
+.get-our-travel {
+  font-weight: 700;
+  font-size: 17px;
+  line-height: 20px;
+}
+
+.form {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  padding-bottom: 90px;
+  display: block;
+  margin: 0 auto;
+  width: 365px;
+}
+
+.email-input {
+  border: 1px solid #000000;
+  height: 39px;
+  width: 100%;
+}
+
+.namesurname {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 18px;
+}
+
+.button-subscribe-input {
+  padding-top: 16px;
+}
+
+.button-subscribe {
+  background: #000000;
+  border: 1px solid #000000;
+  border-radius: 100px;
+  color: white;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  text-align: center;
+  font-family: "Roboto";
+  font-style: normal;
+  width: 115px;
+  height: 33px;
+}
+
+.name-input {
+  width: 153px;
+  height: 39px;
+  border: 1px solid #000000;
+}
+
+.surname-input {
+  width: 153px;
+  height: 39px;
+  border: 1px solid #000000;
+}
+
+.color5 {
+  background-color: #000000;
+}
+
+.footer-wrapper {
+  padding-bottom: 20px;
+  padding-top: 51px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.about-contact {
+  padding-bottom: 36px;
+  color: white;
+}
+
+.about-contact-wrapper {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 23px;
+  display: flex;
+  text-align: left;
+}
+
+.images-footer {
+  padding-top: 40px;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  gap: 22px;
+}
+
+.thalby-logo-white {
+  width: 130px;
+}
+
+.thalby-logo-white-wrapper {
+  display: flex;
+  align-items: center;
+  margin: 0 auto;
+}
+
+.footer a {
+  text-decoration: none;
+  color: white;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+}
+
+.about-wrapper {
+  padding-right: 72px;
+}
+
+.about-us {
+  line-height: 35px;
+}
+
+.Thalby-llc-2021 {
+  padding-bottom: 16px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 23px;
+  justify-content: center;
+  text-align: center;
+  color: white;
+  display: flex;
+  margin: 0 auto;
+}
+
+.form input {
+  padding-left: 8px;
+}
